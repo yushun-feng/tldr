@@ -19,3 +19,7 @@
 
 - 更新plocate的索引目录
 `sudo updatedb --verbose`
+
+- 设置python全局镜像源 pip.ini文件
+`[global]`
+`index-url = https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple`
